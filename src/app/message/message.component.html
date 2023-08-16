@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div>
+        <h1 class="title">Você quer se juntar ao time da Convem?</h1>
+    </div>
+    <div>
+        <form>
+            <input type="text" name="userAnswer" placeholder="Insira sua resposta aqui!" [(ngModel)]="message.userAnswer">
+            <button type="button" (click)="sendAnswer()">Confirmar</button>
+        </form>    
+    </div>
+    <div>
+        <p class="result">{{result}}</p>
+    </div>
+</div>
